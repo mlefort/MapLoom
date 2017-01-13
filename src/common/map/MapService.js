@@ -689,6 +689,7 @@
               savedSchema: minimalConfig.schema,
               dimensions: fullConfig.Dimension
             },
+            opacity: minimalConfig.opacity,
             visible: minimalConfig.visibility,
             source: new ol.source.TileWMS({
               url: mostSpecificUrlWms,
